@@ -1,0 +1,15 @@
+.todos {
+    padding: 70px;
+}
+
+.additems {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.list-head {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}

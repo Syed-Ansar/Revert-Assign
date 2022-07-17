@@ -1,0 +1,60 @@
+.text {
+    font-size: 20px;
+}
+
+.todoItem {
+    display: flex;
+    margin-left: -20px;
+}
+
+.card {
+    width: 300px;
+    border-radius: 5px;
+    font-size: 15px;
+    background: #2F2F2F;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    box-shadow: (0 0 16 80%);
+}
+
+.boreders {
+    border: 1px solid #7AB530;
+    background: #202020;
+}
+
+.index {
+    margin-top: 10px;
+}
+
+.title {
+    padding: 15px;
+    font-weight: 600;
+}
+
+hr {
+    height: 1px;
+    background-color: #5C5C5C;
+    border: none;
+}
+
+.status {
+    background: #C620A7;
+    padding: 6px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.subset {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.delete {
+    color: #AFAFAF;
+    margin-right: 15px;
+    cursor: pointer;
+}
