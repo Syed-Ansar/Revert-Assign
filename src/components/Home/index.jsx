@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import { Circles } from "react-loader-spinner";
 import InputBox from "../Common/Input";
 import List from "../Common/List";
 import './styles.css'
@@ -74,7 +75,11 @@ const Home = () => {
                     <h1 className="list-head">Added task in to-do list</h1>
                 </div>
                 <div className=''>
-                    <List data={data} handleDelete={handleDelete} handleComplete={handleComplete} />
+                    {data.length ? <List data={data} handleDelete={handleDelete} handleComplete={handleComplete} /> :
+                        <div className="loading">
+                            <Circles color="#7AB530" height={80} width={80} />
+                        </div>
+                    }
                 </div>
             </div>
         </div>
