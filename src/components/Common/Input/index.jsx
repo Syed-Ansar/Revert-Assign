@@ -4,7 +4,7 @@ import "./styles.css"
 const InputBox = ({ getInput, Inputdata, handleSubmit }) => {
     return (
         <div className="w-full">
-            <div>
+            <div className="wrapper">
                 <input type="text"
                     className="input"
                     value={Inputdata}

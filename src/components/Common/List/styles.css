@@ -16,9 +16,3 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
-
-@media (min-width: 1400px) {
-    .list-items {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-}

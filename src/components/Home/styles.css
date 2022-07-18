@@ -13,3 +13,9 @@
     margin-top: 50px;
     margin-bottom: 25px;
 }
+
+@media (max-width: 600px) {
+    .todos {
+        padding: 20px;
+    }
+}

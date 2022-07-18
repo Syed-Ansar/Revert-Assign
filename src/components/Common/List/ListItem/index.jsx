@@ -1,12 +1,16 @@
 import React from "react";
 import './styles.css'
-const ListItem = ({ id, title, status, serial, handleDelete, handleComplete }) => {
+import { BsFillCheckCircleFill } from 'react-icons/bs';
 
+
+
+const ListItem = ({ id, title, status, serial, handleDelete, handleComplete }) => {
 
     return (
         <div className='todoItem'>
             <p className="index">{serial}</p>
             <div className={`card ${status ? 'boreders' : ''}`}>
+                {status && <p className="complete_status"><BsFillCheckCircleFill className="circle" /></p>}
                 <div>
                     <p className="title">{title && title.substring(0, 30)}</p>
                     <hr color="green" />

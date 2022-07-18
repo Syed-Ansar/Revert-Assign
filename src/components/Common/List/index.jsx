@@ -3,7 +3,7 @@ import ListItem from "./ListItem";
 import './styles.css'
 
 const List = ({ data, handleDelete, handleComplete }) => {
-    const listData = data.slice(-50);
+    const listData = data.slice(-50).reverse();
     return (
         <div>
             <div className="list-items">

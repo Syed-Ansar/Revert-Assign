@@ -15,6 +15,19 @@
     margin-bottom: 40px;
     margin-left: 15px;
     box-shadow: (0 0 16 80%);
+    position: relative;
+}
+
+.complete_status {
+    position: absolute;
+    right: -8px;
+    top: 20px;
+    background: #000;
+}
+
+.circle {
+    color: #7AB530;
+    size: 50px;
 }
 
 .boreders {
@@ -57,4 +70,10 @@ hr {
     color: #AFAFAF;
     margin-right: 15px;
     cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .index {
+        margin-left: 20px;
+    }
 }
