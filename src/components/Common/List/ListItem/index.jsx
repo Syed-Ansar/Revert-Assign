@@ -15,8 +15,8 @@ const ListItem = ({ id, title, status, serial, handleDelete, handleComplete }) =
                     <p className="title">{title && title.substring(0, 30)}</p>
                     <hr color="green" />
                     <div className="subset">
-                        <p onClick={() => handleComplete(id)} className="status">{!status ? 'Mark as completed' : 'Mark as incompleted'}</p>
-                        <button onClick={() => handleDelete(id)} className="delete">Delete</button>
+                        <p onClick={() => handleComplete(id)} className={`${!status ? 'status statuesbg' : 'status '}`}>{!status ? 'Mark as completed' : 'Mark as incompleted'}</p>
+                        <button onClick={() => handleDelete(id)} className={`delete ${!status && 'deletefalse'}`}>Delete</button>
                     </div>
                 </div>
             </div>

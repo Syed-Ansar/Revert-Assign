@@ -51,11 +51,17 @@ hr {
 }
 
 .status {
-    background: #C620A7;
     padding: 6px 30px;
     border-radius: 3px;
     cursor: pointer;
+    color: #AFAFAF;
 }
+
+.statuesbg {
+    background: #C620A7;
+    color: white;
+}
+
 
 .subset {
     padding: 15px;
@@ -70,6 +76,10 @@ hr {
     color: #AFAFAF;
     margin-right: 15px;
     cursor: pointer;
+}
+
+.deletefalse {
+    color: #C620A7;
 }
 
 @media (max-width: 600px) {
